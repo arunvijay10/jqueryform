@@ -9,11 +9,11 @@ $(document).ready(function(){
     var pass_err=true;
     var cpass_err=true;
 
-    $("#user").key(function(){
-        user_check()
+    $("#user").keyup(function(){
+        user_check();
     });
     function user_check(){
         var user_name=$("#user").val();
-        alert(user_name)
-    }
-})
+        alert(user_name);
+    };
+});
