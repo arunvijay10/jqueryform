@@ -22,15 +22,15 @@
         <h1 class="text-center text-warning">Jquery Form</h1>
     <form action="">
         <label for="user">First Name</label>
-        <input name="fname" type="text" class="form-control"><br>
-        <label for="">Last Name</label>
-        <input  name="lname" type="text" class="form-control"><br>
-        <label for="">Email</label>
-        <input name="email" type="email"  class="form-control"><br>
-        <label>Password</label>
-        <input name="pass" type="password" name="" id=""  class="form-control"><br>
-        <label>Confirm Password</label>
-        <input name="cpass" type="password" name="" id=""  class="form-control"><br>
+        <input id="user" name="fname" type="text" class="form-control"><br>
+        <label for="lastname">Last Name</label>
+        <input  id="lastname" name="lname" type="text" class="form-control"><br>
+        <label for="emails">Email</label>
+        <input id="emails" name="email" type="email"  class="form-control"><br>
+        <label for="passwd">Password</label>
+        <input id="passwd" name="pass" type="password" name="" id=""  class="form-control"><br>
+        <label for="cfpass">Confirm Password</label>
+        <input id="cfpass" name="cpass" type="password" name="" id=""  class="form-control"><br>
         <button class="text-center"type="submit">Submit</button>
 
     </form>
@@ -38,3 +38,5 @@
 </body>
 
 </html>
+
+<!-- lable for should  be equal to name in input otherwise it will conflict -->
