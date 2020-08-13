@@ -16,7 +16,7 @@ $(document).ready(function(){
                 email:true
 
             },
-            pass:{
+            passwd:{
                 minLength: 12, 
                 minUpperCase: 2, 
                      
@@ -29,6 +29,15 @@ $(document).ready(function(){
         {
             fname:{
                 required:"Enter Your First Name"
+            },
+            lname:{
+                required:"Enter Your Last Name"
+            },
+            email:{
+                required:"Enter Your Email"
+            },
+            passwd:{
+                required:"Enter Your Password"
             }
         }
 
