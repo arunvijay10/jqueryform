@@ -19,12 +19,18 @@ $(document).ready(function(){
             pass:{
                 minLength: 12, 
                 minUpperCase: 2, 
-                minLowerCase: 2, 
-                minDigits: 2,  
-                minSpecial: 2,      
+                     
             }
 
           
+        },
+        // Messages have to start after the rules otherwise it will not work
+        messages:
+        {
+            fname:{
+                required:"Enter Your First Name"
+            }
         }
+
     })
 })
